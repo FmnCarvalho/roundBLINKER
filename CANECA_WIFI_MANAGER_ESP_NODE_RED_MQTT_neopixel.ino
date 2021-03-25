@@ -75,41 +75,12 @@ PubSubClient client(WiFiClient);
 //**********************************************************************************************
 #ifndef APSSID
 
-//#define APSSID "rnd_BLNKR_McQfTjWn"   //11 Nome varia para cada dispositivo
-//#define APSSID "rnd_BLNKR_fUjXn2r5"   //11 Nome varia para cada dispositivo
-//#define APSSID "rnd_BLNKR_Xp2s5v8y"   //10 Nome varia para cada dispositivo
-//#define APSSID "rnd_BLNKR_s6v9y/B?"   //9 Nome varia para cada dispositivo
-//#define APSSID "rnd_BLNKR_9z$B&E)H"   //8 Nome varia para cada dispositivo
-//#define APSSID "rnd_BLNKR_C&F)J@Nc"   //7 Nome varia para cada dispositivo
-//#define APSSID "rnd_BLNKR_-JaNdRgU"   //6 Nome varia para cada dispositivo
-//#define APSSID "rnd_BLNKR_PdSgVkYp"   //5 Nome varia para cada dispositivo
-//#define APSSID "rnd_BLNKR_hVmYq3t6"   //4 Nome varia para cada dispositivo
-//#define APSSID "rnd_BLNKR_Zq4t7w!z"   //3 Nome varia para cada dispositivo
-//#define APSSID "rnd_BLNKR_u7x!A%C*"   //2 Nome varia para cada dispositivo
-//#define APSSID "rnd_BLNKR_/A%D*G-K"   //1 Nome varia para cada dispositivo
-// ...
-//#define APSSID "rnd_BLNKR_D(G+KbPe"   //4º Nome varia para cada dispositivo
-//#define APSSID "rnd_BLNKR_+MbQeThW"   //3º Nome varia para cada dispositivo
-#define APSSID "PRECiOUS_MUG" //2º Nome varia para cada dispositivo
-//#define APSSID "rnd_BLNKR_jXn2r5u8" //1º Nome varia para cada dispositivo
 
-//#define APPSK  "73343986"     //11 Password varia para cada dispositivo
-//#define APPSK  "04175923"     //11 Password varia para cada dispositivo
-//#define APPSK  "25560443"     //10 Password varia para cada dispositivo
-//#define APPSK  "97322212"     //9 Password varia para cada dispositivo
-//#define APPSK  "79589406"     //8 Password varia para cada dispositivo
-//#define APPSK  "06671177"     //7 Password varia para cada dispositivo
-//#define APPSK  "18165816"     //6 Password varia para cada dispositivo
-//#define APPSK  "54007860"     //5 Password varia para cada dispositivo
-//#define APPSK  "57082037"     //4 Password varia para cada dispositivo
-//#define APPSK  "26141862"     //3 Password varia para cada dispositivo
-//#define APPSK  "47693242"     //2 Password varia para cada dispositivo
-//#define APPSK  "45159936"     //1 Password varia para cada dispositivo
 // ...
-//#define APPSK  "34567890"     //4º Password varia para cada dispositivo
-//#define APPSK  "23456789"     //3º Password varia para cada dispositivo
+
+#define APSSID "roundBLINKER" //2º Nome varia para cada dispositivo
+
 #define APPSK  "12345678"     //2º Password varia para cada dispositivo
-//#define APPSK  "01234567"     //1º Password varia para cada dispositivo
 
 #endif
 //**********************************************************************************************
