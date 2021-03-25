@@ -27,43 +27,38 @@ void init_data(){
   EEPROM.commit();
   EEPROM.end();
   EEPROM.begin(4096);
-  EEPROM.put(0, "jackthemaker");                      
+  EEPROM.put(0, "xxxxxxxxxxxx");                      
   EEPROM.commit();
   EEPROM.end();
   EEPROM.begin(4096);
-  //password[0]='W';password[1]='I';password[2]='F';password[3]='I';password[4]='_';password[5]='J';password[6]='T';password[7]='M';
-  //password[8]='_';password[9]='2';password[10]='0';password[11]='2';password[12]='0';password[13]='#';
-  EEPROM.put(64, "WIFI_JTM_2020#");
+  EEPROM.put(64, "xxxxxxxxxxxxxx");
   EEPROM.commit();
   EEPROM.end();
   EEPROM.begin(4096);
-  //newpassw[0]='1';newpassw[1]='1';newpassw[2]='1';newpassw[3]='1';
   EEPROM.put(128, "1111");
   EEPROM.commit();
   EEPROM.end();
   EEPROM.begin(4096);
-  //SERVER[0]='m';SERVER[1]='b';SERVER[2]='.';SERVER[3]='j';SERVER[4]='a';SERVER[5]='c';SERVER[6]='k';SERVER[7]='t';SERVER[8]='h';SERVER[9]='e';
-  //SERVER[10]='m';SERVER[11]='a';SERVER[12]='k';SERVER[13]='e';SERVER[14]='r';SERVER[15]='.';SERVER[16]='c';SERVER[17]='o';
-  EEPROM.put(132,"mb.jackthemaker.co");
+ 
+  EEPROM.put(132,"xx.xxxxxxxxxxxx.xx");
   EEPROM.commit();
   EEPROM.end();
   EEPROM.begin(4096);    
-  //srvport[0]='1';srvport[1]='8';srvport[2]='8';srvport[3]='3';
   EEPROM.put(196,"1883");
   EEPROM.commit();
   EEPROM.end();
   EEPROM.begin(4096);
-  //MQTT_USERNAME[0]='j';MQTT_USERNAME[1]='a';MQTT_USERNAME[2]='c';MQTT_USERNAME[3]='k';
-  EEPROM.put(260,"jack_Blinker");
+  
+  EEPROM.put(260,"xxxx_Blinker");
   EEPROM.commit();
   EEPROM.end();
   EEPROM.begin(4096);
-  //MQTT_KEY[0]='j';MQTT_KEY[1]='a';MQTT_KEY[2]='c';MQTT_KEY[3]='k';
-  EEPROM.put(324,"jackRGBlinker");
+ 
+  EEPROM.put(324,"xxxxRGBlinker");
   EEPROM.commit();
   EEPROM.end();
   EEPROM.begin(4096);
-  EEPROM.put(388,"dRgUkXp2s5"); // KEY************************************************** 6
+  EEPROM.put(388,"xxxxxxxxxx"); // KEY************************************************** 
   EEPROM.commit();
   EEPROM.end();
   EEPROM.begin(4096);
@@ -73,7 +68,6 @@ void init_data(){
   EEPROM.commit();
   EEPROM.end();
   EEPROM.begin(4096);
-  //flag_zero[0]='z';flag_zero[1]='e';flag_zero[2]='r';flag_zero[3]='o';
   EEPROM.put(4000,"zero");  
   
   EEPROM.commit();
